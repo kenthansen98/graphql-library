@@ -1,0 +1,20 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "library-backend.js",
+  "scripts": {
+    "dev": "nodemon library-backend.js"
+  },
+  "author": "Kent Hansen",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.13.0",
+    "graphql": "^15.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.14",
+    "mongoose-unique-validator": "^2.0.3",
+    "nodemon": "^2.0.3",
+    "uuid": "^3.4.0"
+  }
+}
